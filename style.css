@@ -1,0 +1,100 @@
+body {
+    width: 1024PX;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+header {
+    height: 60px;
+    width: 1024px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.logo {
+    float: left;
+}
+.logo-title {
+    float: left;
+    margin: 0 0 0 10px;
+}
+.sub-title {
+    float: left;
+    margin: 20px 0 0 0px
+}
+.clear {
+    clear: both;
+}
+main {
+    height: 2000px;
+    background-color: rgb(240, 240, 240);
+}
+.top {
+    height: 30%;
+    background-image: url(../image/3578769_s.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.top h1 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+.center {
+    height: 30%;
+    text-align: center;
+}
+.center h2 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.center p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+.center p + p {
+    color: rgb(199, 129, 129);
+}
+.center ul {
+    display: flex;
+    margin-top: 60px;
+}
+.center li {
+    list-style: none;
+    flex: 1;
+}
+.center li img {
+    opacity: 0.7;
+}
+.bottom {
+    height: 40%;
+    background-image: url(../image/architecture-828596_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+.bottom-container {
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+}
+.second-title {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.overview {
+    overflow: hidden;
+}
+.overview-container {
+    text-align: center;
+    margin-top: 100px;
+}
+table {
+    margin: 0 auto;
+}
+td {
+    border: 1px solid grey;
+    border-width: 0 0 1px 0;
+}
