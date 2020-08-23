@@ -31,7 +31,7 @@ main {
 }
 .top {
     height: 30%;
-    background-image: url(../image/3578769_s.jpg);
+    background-image: url(3578769_s.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -69,7 +69,7 @@ main {
 }
 .bottom {
     height: 40%;
-    background-image: url(../image/architecture-828596_1280.jpg);
+    background-image: url(architecture-828596_1280.jpg);
     background-size: cover;
     background-position: center center;
     overflow: hidden;
